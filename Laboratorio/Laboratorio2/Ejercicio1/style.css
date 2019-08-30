@@ -48,17 +48,28 @@
             -Justifique el texto.
             -Indente el texto 5px
         */
+        P{
+            text-align: justify;
+            text-indent: 5px;
+        }
     
         /*
         Para los enlaces:
             -Color de texto rgb(0, 165, 102)
             -Elimine las decoraciones en el texto
         */
+        a{
+            color:rgb(0, 165, 102);
+            text-decoration: none;
+        }
     
         /*
         A los elementos de una lista:
             -Margen infierior de 1em
         */
+        li{
+            margin-bottom: 1em;
+        }
     
         /*
         A las imagenes:
