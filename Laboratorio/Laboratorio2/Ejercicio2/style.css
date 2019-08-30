@@ -1,4 +1,13 @@
-Para los botones con la clase btn:
+/***************************************************
+    ** Sin modificar el HTML dado, aplique todas las **
+    ** reglas solicitadas                            **
+    ** PAra todos los selectores asegurar que los    **
+    ** botones tengan la clase btn                   **
+    ***************************************************/
+
+    /*
+        Sección General
+        Para los botones con la clase btn:
             -Borde solido de 1px, color trasparente
             -Radio de borde 0.3em
             -Sin sombra
@@ -9,6 +18,15 @@ Para los botones con la clase btn:
         Opcional:
             -Aplicar en hover opacidad al 1.0
     */
+    button{
+        border: 1px;
+        border-radius: 0.3em;
+        box-shadow: 0px;
+        padding-inline: 1em;
+        color:rgba(0, 0,0, 0.8)
+        text-
+
+    }
 
     /*
         Sección Tamaños
@@ -42,3 +60,5 @@ Para los botones con la clase btn:
             -sky: Color de borde y texto -> #00BCD4
             -purple: Color de borde y texto -> #673AB7
     */
+
+            
