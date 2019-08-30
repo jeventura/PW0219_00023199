@@ -19,13 +19,15 @@
             -Aplicar en hover opacidad al 1.0
     */
     button{
-        border: 1px;
-        border-radius: 0.3em;
-        box-shadow: 0px;
-        padding-inline: 1em;
-        color:rgba(0, 0,0, 0.8)
-        text-
+        border-width: 1px;
+        border-color: transparent;
+        padding-left: 1em;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        text-transform: capitalize;
 
+        
     }
 
     /*
