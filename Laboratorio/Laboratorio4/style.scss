@@ -1,0 +1,8 @@
+$color-primario:tomato;
+@mixin set-dimensions($width,$height) {
+    width: $width;
+    
+}
+.container{
+    background: ($color-primario);
+}
