@@ -91,7 +91,7 @@ let add_student = (carnet, schedule, late) => {
 submit_btn.addEventListener("click", () => {
   let carnet = carnet_field.value;
   let schedule =schedule_dropdown.options[schedule_dropdown.selectedIndex].text;
-  let late = parseLateSwitch(late_switch.cheked);
+  let late = parseLateSwitch(late_switch.checked);
   
   if (carnet_regex.test(carnet)) {
     add_student(carnet, schedule, late);
