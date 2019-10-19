@@ -66,10 +66,10 @@ let printArray = () => {
 
 let parseLateSwitch = (value) => {
   if (value) {
-    return "Tardisimo";
+    return "Tarde";
   
   }
-    return "test";
+    return "A tiempo";
    
 };
 
